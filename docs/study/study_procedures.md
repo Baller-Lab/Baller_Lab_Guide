@@ -19,6 +19,7 @@ For an in-person visit you should carry a folder containing:
 2. W9 form
 3. ClinCard FAQ sheet
 4. ClinCard (if using physical card)
+5. MoCA scoring sheet
 
 You can also bring snacks and a water bottle from the Gates kitchenette for your participant, as the visits can be lengthy. You must also be sure that Dr. Baller is aware of when you will be conducting the visit, as she (or another clinician, if Dr. Baller is unavailable) must be on-call in case a participant endorses suicidal thoughts or behavior. 
 
@@ -30,14 +31,15 @@ Visits typically last 2-3 hours. The visit can be completed in the assessment ro
 1. Consent
 2. Oracle Meds/Demos
 3. Self-report in REDCap
-4. CNB
-5. Adaptive GOASSESS 
-6. C2 form signing and payment
+4. MoCA
+5. CNB
+6. Adaptive GOASSESS 
+7. C2 form signing and payment
 
 Once the visit has been completed, thank the participant and walk them back to the HUP lobby. 
 
 ### After the Visit
-Once you have completed the visit, you should QA the interviews and make sure that the consent form and C2 are uploaded to Saturn. Any paper folders can be filed in your filing cabinet. 
+Once you have completed the visit, you should QA the interviews and make sure that the consent form and C2 are uploaded to Saturn. You should scan the MoCA form and add it into the participants folder. Any paper folders can be filed in your filing cabinet. 
 
 Some participants may ask for feedback on their CNBs. Feedback can be obtained by making a request on behalf of the participant through the [CNB Feedback Requests](https://webcnp.med.upenn.edu/request_feedback.pl). Because most participants will not understand what the reports mean, you should ask a clinician to set up a short appointment with the participant, during which the clinician will explain what the report states to the requesting participant. More instructions on how to obtain a feedback report can be found on the CNB page. 
 
@@ -68,3 +70,7 @@ After reviewing the GOA and REDCap Self-Report Data, compare the results from bo
 6)	Check the CNB Data
 
 Go to https://webcnp.med.upenn.edu/manual.html and click on “View Data” and then “Reports & Norm Data”. Under “Battery”, select the most updated msdep_k23_v# battery, and under “Site” select MSDEP. Click “Generate data report” and a sheet should download. On this sheet, you should ensure that there aren’t any gaps in the data and that the data came out the way you were expecting. If there are any gaps or problems in the data, reach out to Dr. Baller to trouble-shoot. Be sure to include the participants BBLID and the specific issues in the data when informing Dr. Baller. 
+
+7)  Check the MoCA
+Score the MoCA and ensure that it is properly stored in Saturn in the participants folder. You can scan documents using the portable scanner in Richards. You will have to download the Epson ScanSmart App in order for this to work.
+
