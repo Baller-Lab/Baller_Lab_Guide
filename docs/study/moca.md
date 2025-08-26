@@ -1,6 +1,6 @@
 ---
 layout: default
-title: PennChart
+title: MoCA
 has_children: false
 parent: Current Studies
 has_toc: false
