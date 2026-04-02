@@ -1,3 +1,12 @@
+---
+layout: default
+title: Call Log
+has_children: false
+parent: Current Studies
+has_toc: false
+nav_order: 1
+---
+
 # Call Log
 The Call Log, located on Saturn, is where we store all of our participants information, including prospective participants and completed visit information. Each tab in this spreadsheet is detailed below. It can be found in: 
 
