@@ -7,28 +7,106 @@ has_toc: false
 nav_order: 6
 ---
 
-# REDCap Functions
-We use [REDCap](https://axis.med.upenn.edu/) to collect, store, and track participant data. You will use REDCap to access:
+# REDCap Axis vs PMACS
+We use two different versions of REDCap: [REDCap Axis](https://axis.med.upenn.edu/index.php?action=myprojects) and [REDCap PMACS](https://redcap.med.upenn.edu). Axis is used for the consent forms and self-report questionnaires, while PMACS is used for C2 forms. 
 
-| Study Component | REDCap Project Name |
-| ----------- | ----------- |
-| Study consent forms | MS Depression IRB# Consent #consents |
-| GOASSESS | GOASSESS #collection |
-| Participant self-report scales | MS Depression Collection Scales #collection |
-| Study tracker | MS Depression Tracker #tracker |
+## REDCap Axis
+You will have two projects: “MS Depression [853883] Consent #consents” and “MS Depression Collection Scales #collection”.
 
-### Consent Forms
-You will go through the consent form with your participant at the very beginning of every study visit. You will prepare by navigating to the MS and depression consent project on REDCap and by clicking the `Add New Record` button. You will then enter all information pertaining to the participant on the `Admin` page and the `Activities and Options` page. Once you reach the `MS Depression Consent` page, click the survey options dropdown menu at the top of the page and click `Open Survey` to open the survey in a new tab.
+### Consents
+At the beginning of each visit, you will have to read the consent form to the participant, and they will have to sign it prior to participating in the study. To create a new consent form:
 
-If you are completing the visit in person, you can now turn the screen to face the participant and walk them through the consent form. They can then type in their name and the date to complete the form. 
+1. Click `Add / Edit Records`
+2. Click `+ Add new record`
+3. Click the bubble on the Admin row in the `Status` column
+4. Enter the required information
+    1. Ensure that the Consent Approval Date is the most recent date
+5. Then, click `Save & Go To Next Form`
+6. Ensure that all the rows are set to “Yes”
+7. Set the form to be “Complete” in the `Complete?` row
+8. To open it up for a participant, click `Survey options`, and then `Open Survey`
+9. If virtual, send this newly opened link to your participant. If in-person, this will be done on the assessment room desktop computer. 
 
-If you are completing the visit virutally, copy the survey link (once opened in a new tab) and paste it into the zoom chat. The participant will be able to open it on their own computer. Ask them to share their screen with you, go through the consent form together, and then ask them to sign the form. You must validate the consent and download a copy of the pdf. This pdf must be saved to the consents folder in Saturn. 
+You will read each page to the participant, allowing them to ask questions after each page, and at the end of the consent form. You will also offer the the option to download the signed consent form at the end. After the consent form has been signed, you will save it:
 
-### Self Reports
-Participants will complete the self-report scales during their scheduled visits. Self-report questions do ask about mood and history of suicidality, so it is important to review participant answers while they are filling out the self-report, looking specifically at the PHQ and BDI. If the participant indicates suicidal ideation, you must contact Dr. Baller and inform her of the situation. We also provide participants with a list of mental health resources 24 hours before the visit to support them if needed. You will fill out the necessary admin information for the self-reports, open the survey in a new tab, copy that link and paste it into a new tab for in-person visits or in the Zoom chat for virtual visits. For additional information, see email script under recruitment tab and stored in Saturn. While the participant is filling out the scales during their visit, make sure to turn your camera and microphone off until they finish completing the surveys. 
+1. By Actions:, click `This data entry form with saved data (via browser’s Save as PDF)`
+2. Save PDF, naming it [BBLID]_MSDepression853883Consent_MM_DD_YY
+3. Put the saved PDF into Saturn in the Virtual_Consents folder
 
-### Study Tracker
-The study tracker contains questions regardign participants' medical history. You should go through this list with the participant during the visit (for additional information, consult best GOASSESS practices on Saturn or with Sage), although it is a good idea to consult their MS record in EPIC and to fill in MS-related information before the visit. You can then confirm this information with them during the interview.
+### Self-Report Questionnaires
+You will also be collecting self-report scales from each participant. To create a new scale form:
 
-### Other REDCap Functions
-Virtual C2 forms are stored on a separate [pennmedicine REDCap site](https://redcap.med.upenn.edu/). You will need to be added to the C2 projects here to successfully complete virtual payemnt procedures. All pdfs should be downloaded and stored on Saturn. SOPs located on Saturn.
+1. Click `Add / Edit Records`
+2. Click `+ Add new record`
+3. Click the bubble on the Admin row in the `Status` column
+4. Enter the required information
+    1. If the participant is in-person, select *In-person proctored* in `Assessment Method`
+    2. If the participant is virtual, select *Self-administered but monitored* in `Assessment Method`
+5. `Time point` will always be 1
+6. Set the form to “Complete”
+7. Then, click `Save & Go To Next Form`
+8. Set the form to be “Complete” in the `Complete?` row, and then click `Save & Go To Next Form`
+9. To open it up for a participant, click `Survey options`, and then `Open Survey`
+10. If virtual, send this newly opened link to your participant. If in-person, this will be done on the assessment room desktop computer. 
+
+*Once the scales are completed, navigate to the `Scales Validation` page, and set it to `Valid` (assuming the scales are valid). Then set it to `Complete`, and `Save and & Exit Form`.* 
+
+You will download them as a PDF and save in Saturn:
+
+1. Navigate to the `Scales Admin` page
+2. By Actions:, click `All forms/surveys with saved data (compact)`
+3. Save PDF, naming it [BBLID]_MSDepressionCollectionScalesCo_[YYYY]-[MM]-[DD]_[####].pdf
+4. Put the saved PDF into Saturn in the `Participants` folder, within the folder of their BBLID
+    1. Path: Participants/[BBLID]/feedback_materials/ADD SCALES HERE
+  
+### Downloading All REDCap Axis Data
+You will occasionally have to download all REDCap collection scales for analysis. You can do so by:
+1. Click `Data Exports, Reports, and Stats` under the `Applications` list on the left hand side.
+2. In the `All Data` row, choose `Export Data`
+3. Export format will be CSV / Microsoft Excel (raw data)
+4. Click `Export Data`
+
+****
+
+## REDCap PMACS
+
+REDCap PMACS can be accessed [here](https://redcap.med.upenn.edu). The project is named “Neuropsych Subject Payment Signature #clinical”. 
+
+**To create a new C2 form:**
+
+1. `Add / Edit Records`
+2. `+ Add new record`
+3. Select the bubble next to `Payment Admin`
+4. Enter all required information
+    1. *Fund number*: 587537
+    2. *CREF Number*: 5273
+    3. *Description of Visit*: Visit 1 of 1, CNB+GOA, MM/DD/YYYY
+    4. *Payment method*: Greenphire ClinCard
+    5. *Remuneration/5316 Human Subject Payments (dollars)*: 80.00 (assuming they completed BOTH the CNB and GOA)
+    6. *5206 (Non-Employee Travel) Expenses (dollars)*: 0.00
+    7. *Other (5241 Patient Care Supplies) Expenses (dollars)*: 0.00
+    8. *Grand Total Payment Amount (dollars)*: 80.00
+5. Set form to `Complete`, then hit `Save & Go To Next Record`
+6. Click the following boxes:
+    1. This study does not have an IRB waiver of HIPAA
+    2. No W-9 required - petty cash payment is less than $2,000. 
+    3. (If applicable): Subject is an employee of UPHS, CPUP, or UPenn
+7. `Save & Exit Form`
+
+**To get their signature:**
+
+1. Open the `Subject Signature Collection` page
+2. In Survey options, choose `Open Survey`
+3. Send the link to the participant
+4. Ask them to type their signature, sign their signature, and enter today’s date (can press the Today button to generate)
+5. Once they click to the second page, ask them to verify that all the information looks correct by clicking on the white box within the yellow box at the bottom.
+6. Once that has been clicked, they can submit
+
+**Saving a C2 form:**
+
+1. Download as a PDF
+2. Navigate to Saturn, using the *Virtual_C2 folder*
+3. Each month and year should have its own folder
+4. Choose the appropriate one, and then create a new folder within, named the BBLID
+5. Within that folder, put the saved C2 form in
+    1. The path should look like: Virtual_C2/[Month]_[YYYY]/[BBLID]/PUT C2 FORM HERE
