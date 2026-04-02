@@ -53,7 +53,7 @@ Welcome to the Baller Lab! Here, we will outline the onboarding steps required d
 1. Obtain ID’s
 - [ ]  HUP (employee entrance).
 - [ ]  PennCard (2nd floor of Penn Bookstore).
-- [ ]  Once you get this, make sure you have access to Richards. If not, email Stace Moore asking for access.*
+- [ ]  *Once you get this, make sure you have access to Richards. If not, email Stace Moore asking for access.*
 - [ ]  Send your Penn ID number to the research coordinator.
    
 2. Obtain key’s from Stace Moore.
@@ -72,7 +72,7 @@ Welcome to the Baller Lab! Here, we will outline the onboarding steps required d
 9. Send headshot and brief bio to Stace Moore via email.
 10. Review employee handbook.
 11. Register for Penn SOM Orientation ([WorkDay](https://workday.upenn.edu)).
-12. Review institutional policies (e.g., benefits) (see [here](https://www.hr.upenn.edu/PennHR/benefits-compensation))
+12. Review institutional policies (e.g., benefits) (see [here](https://www.hr.upenn.edu/PennHR/benefits-compensation)).
 
 ### Basic Trainings
 ***HIPAA***
