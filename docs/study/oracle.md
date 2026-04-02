@@ -28,7 +28,6 @@ During the visit, you will have to record the participants’ demographics. Star
 - [ ]  Gender_Identity
 - [ ]  Sex Preference
 - [ ]  Completed Education (in years)
-    - [ ]  The question mark box next to this will outline the degree level with the associated number of years of education.
 - [ ]  Are you a student?
 - [ ]  Are you currently employed?
 - [ ]  What is your occupation/line of work?
@@ -37,14 +36,11 @@ During the visit, you will have to record the participants’ demographics. Star
 - [ ]  Marital Status
 - [ ]  #Kids_Subject
 - [ ]  Raised By
-- [ ]  Ses_Income_Src
-    - [ ]  Use the ses PDF and share your screen when asking this question
-- [ ]  Ses_Income_Household
-    - [ ]  Use the ses PDF and share your screen when asking this question
+- [ ]  Ses_Income_Src*
+- [ ]  Ses_Income_Household*
 - [ ]  Living Arrangement
 - [ ]  Ses_Property
-- [ ]  Ses_Property_Value
-    - [ ]  Use the ses PDF and share your screen when asking this question
+- [ ]  Ses_Property_Value*
 - [ ]  Ses_Residents
 - [ ]  Ses_Bedrooms
 - [ ]  Ses_Immigrant_Status
@@ -55,22 +51,23 @@ During the visit, you will have to record the participants’ demographics. Star
 - [ ]  #Half_Brother
 - [ ]  #Half_Sister
 - [ ]  Completed Education (in years)(Mother)
-    - [ ]  The question mark box next to this will outline the degree level with the associated number of years of education.
 - [ ]  Mother Occupation
-    - [ ]  The question mark box will show the list of occupation categories. Choose the number that best corresponds with their job.
 - [ ]  Name of Occupations
 - [ ]  #Kids_Mother
 - [ ]  Completed Education (in years)(Father)
-    - [ ]  The question mark box next to this will outline the degree level with the associated number of years of education.
 - [ ]  Father Occupation
-    - [ ]  The question mark box will show the list of occupation categories. Choose the number that best corresponds with their job.
 - [ ]  Name of Occupations
 - [ ]  #Kids_Father
 - [ ]  Were you ever adopted or in foster care?
 - [ ]  Do you know bio parents?
 - [ ]  Is English your primary/native language?
-- [ ]  (Optional) Notes:
-    - [ ]  If there is any additional information or something you need to clarify, you can write that here.
+- [ ]  (Optional) Notes: If there is any additional information or something you need to clarify, you can write that here.
+     
+*For questions about education level, the question mark box will show the number of years and the corresponding degree.*
+
+*For questions about occupation, the question mark box will show the job categories and their associated number. Choose the number that best corresponds with their job.*
+
+*For the SES questions with a * use the ses PDF and share your screen when asking this question.*
 
 ## Medication
 You will also have to enter the medications that the participant is on. Starting at the Main Menu, navigate to `MEDICATION`, the `Medicine Store`, enter `BBLID`, and then click `Get the Subject`. Choose `Do Medicine Entry`. Choose our `protocol`, your username for `CollectBy`, and then choose `Yes` for the questions “Are you taking any medicines regularly within the past 6 months, including aspirin and (females only) oral contraceptives?” and (if this shows up) “Do you have new medicines to enter for this collection?”. For each medication that they are on, enter the medicine name in *Medicine*, the total daily dosage in mgs in *Dosage(mg_day)*, *route*, when they started taking this medication in *Date/Med_Start*, and choose “yes” for *Is_Current*. Once you are done, click `Enter` to save. A few extra pieces of information:
