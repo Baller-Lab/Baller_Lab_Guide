@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Call Log
+title: DaySmart
 has_children: false
 parent: Current Studies
 has_toc: false
