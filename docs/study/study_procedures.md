@@ -17,17 +17,17 @@ This page outlines what a study visit should look like, including the prep befor
 - [ ]  Check eligibility
 - [ ]  Contact participant, pitch study, and schedule a date and time for the visit
 - [ ]  Add participant information into Oracle:
-    - [ ]  Subject/family info —> Search/add new proband —> enter new proband
-    - [ ]  Subject/family info —> Contact/family add/edit —> add contact info
-    - [ ]  Study enroll —> “not enrolled”
-    - [ ]  Contact —> ContactInfo Search —> Add all contact between you and participant
+    1. Subject/family info —> Search/add new proband —> enter new proband
+    2. Subject/family info —> Contact/family add/edit —> add contact info
+    3. Study enroll —> “not enrolled”
+    4. Contact —> ContactInfo Search —> Add all contact between you and participant
 - [ ]  Update Call Log
-    - [ ]  Change row to be blue
-    - [ ]  Add BBLID, date of first contact, and update column “Call Log/Notes”
+    1. Change row to be blue
+    2. Add BBLID, date of first contact, and update column “Call Log/Notes”
 - [ ]  Add appointment to DaySmart
 - [ ]  Add appointment to Google Calendar
-    - [ ]  Make sure this is in your joint calendar, names “BBLID - [virtual/in-person]”
-    - [ ]  Add Zoom link (if virtual) to the description (zoom name should be “MS Mood Study - BBLID”
+    1. Make sure this is in your joint calendar, names “BBLID - [virtual/in-person]”
+    2. Add Zoom link (if virtual) to the description (zoom name should be “MS Mood Study - BBLID”
 - [ ]  Send participant the confirmation email
 
 ## Pre-Visit
@@ -52,18 +52,18 @@ Using the appropriate email and text scripts, reach out to your participant at t
 
 - [ ]  Bring physical ClinCard and ClinCard FAQ sheet
 - [ ]  Log into computer before participant arrives and open the following websites:
-    - [ ]  REDCap AXIS: self-report and consent form
-    - [ ]  CNB
-    - [ ]  CAT-GOASSESS
+    1. REDCap AXIS: self-report and consent form
+    2. CNB
+    3. CAT-GOASSESS
 - [ ]  Get water bottles and snacks from the kitchen
 - [ ]  Head to the lobby ~5-10 minutes before the visit starts and text your participant that you are waiting in the lobby (it is helpful to tell them what you are wearing so they can find you easily)
 
 *If virtual:*
 
 - [ ]  Pull up the following websites:
-    - [ ]  REDCap Axis: self-report and consent form
-    - [ ]  CNB
-    - [ ]  CAT-GOASSESS
+    1. REDCap Axis: self-report and consent form
+    2. CNB
+    3. CAT-GOASSESS
 - [ ]  Pull up your personal consent script
 
 ## During the Visit (both in-person and virtual)
@@ -71,10 +71,10 @@ Using the appropriate email and text scripts, reach out to your participant at t
 - [ ]  Consent on REDCap Axis
 - [ ]  Demographics and medication entry on Oracle
 - [ ]  Self-report questionnaires on REDCap Axis
-  - [ ] **You should also review the suicide-related self-report questions while the participant is answering the questionnaire. If suicidal thoughts or behavior are endorsed, you must immediately inform Dr. Baller to request a safety screen.**
+  1. **You should also review the suicide-related self-report questions while the participant is answering the questionnaire. If suicidal thoughts or behavior are endorsed, you must immediately inform Dr. Baller to request a safety screen.**
 - [ ]  MoCA
 - [ ]  CNB
-    - [ ]  Record data quality in ProctTract
+    1. Record data quality in ProctTract
 - [ ]  CAT-GOASSESS
 - [ ]  C2 form
 - [ ]  Pay participant
@@ -83,21 +83,21 @@ Using the appropriate email and text scripts, reach out to your participant at t
 ## Post-Visit
 
 - [ ]  Save the following documents to the following locations:
-    - [ ]  Self-report questionnaires
-        - [ ]  Create new folder in Saturn for the participant in the folder “Participants” with their BBLID —> create a second folder inside called “feedback_materials”, and put this in there
-        - [ ]  Name format: [BBLID]_MSDepressionCollectionScalesCo_[YYYY]-[MM]-[DD]_[string of numbers generated for you, do not change].pdf
-    - [ ]  Signed consent form
-        - [ ]  Consent folder “Virtual_Consents”
-        - [ ]  Name format: [BBLID]_MSDepression853883Consent_[MM]_[DD]_[YYYY].pdf
-    - [ ]  Scan the MoCA
-        - [ ]  Save in the “feedback_materials” folder
-        - [ ]  Name format: [BBLID]_moca.pdf
-    - [ ]  CAT-GOASSESS
-        - [ ]  Add the raw data to the “GOA_data” folder
-        - [ ]  Keep the name as is
-    - [ ]  C2
-        - [ ]  Save in “Virtual_C2” —> choose the appropriate month/year folder —> create a new folder with the BBLID —> add C2 in that folder
-        - [ ]  Name format: [BBLID]_C2_[MM]_[DD]_[YY]
+    1. Self-report questionnaires
+        1. Create new folder in Saturn for the participant in the folder “Participants” with their BBLID —> create a second folder inside called “feedback_materials”, and put this in there
+        2. Name format: [BBLID]_MSDepressionCollectionScalesCo_[YYYY]-[MM]-[DD]_[string of numbers generated for you, do not change].pdf
+    1. Signed consent form
+        1. Consent folder “Virtual_Consents”
+        2. Name format: [BBLID]_MSDepression853883Consent_[MM]_[DD]_[YYYY].pdf
+    2. Scan the MoCA
+        1. Save in the “feedback_materials” folder
+        2. Name format: [BBLID]_moca.pdf
+    3. CAT-GOASSESS
+        1. Add the raw data to the “GOA_data” folder
+        2. Keep the name as is
+    4. C2
+        1. Save in “Virtual_C2” —> choose the appropriate month/year folder —> create a new folder with the BBLID —> add C2 in that folder
+        2. Name format: [BBLID]_C2_[MM]_[DD]_[YY]
 - [ ]  Update DaySmart
 - [ ]  Update Call Log
 - [ ]  Request feedback
