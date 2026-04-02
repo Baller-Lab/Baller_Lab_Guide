@@ -8,69 +8,123 @@ nav_order: 8
 ---
 
 # Study Procedures
-This page outlines what a study visit should look like.
 
-### Visit Preparation
-Once the particpant has agreed to participant and has been scheduled, you can prepare for the visit. This process is covered across the other tabs--ensure that you have sent confirmation emails and texts to the participant, created BBL and Self-Report IDs through Oracle, prepared the admin for REDCap tools, prepared payment, and for in person visits, printed the necessary paperwork. 
+This page outlines what a study visit should look like, including the prep beforehand and the post-visit checklist.
 
-For an in-person visit you should carry a folder containing: 
+## Scheduling
 
-1. Study-specific C2 form
-2. W9 form
-3. ClinCard FAQ sheet
-4. ClinCard (if using physical card)
-5. MoCA scoring sheet
+- [ ]  Add patient information into the “List of Potential Participants” tab of the Call Log
+- [ ]  Check eligibility
+- [ ]  Contact participant, pitch study, and schedule a date and time for the visit
+- [ ]  Add participant information into Oracle:
+    - [ ]  Subject/family info —> Search/add new proband —> enter new proband
+    - [ ]  Subject/family info —> Contact/family add/edit —> add contact info
+    - [ ]  Study enroll —> “not enrolled”
+    - [ ]  Contact —> ContactInfo Search —> Add all contact between you and participant
+- [ ]  Update Call Log
+    - [ ]  Change row to be blue
+    - [ ]  Add BBLID, date of first contact, and update column “Call Log/Notes”
+- [ ]  Add appointment to DaySmart
+- [ ]  Add appointment to Google Calendar
+    - [ ]  Make sure this is in your joint calendar, names “BBLID - [virtual/in-person]”
+    - [ ]  Add Zoom link (if virtual) to the description (zoom name should be “MS Mood Study - BBLID”
+- [ ]  Send participant the confirmation email
 
-You can also bring snacks and a water bottle from the Gates kitchenette for your participant, as the visits can be lengthy. You must also be sure that Dr. Baller is aware of when you will be conducting the visit, as she (or another clinician, if Dr. Baller is unavailable) must be on-call in case a participant endorses suicidal thoughts or behavior. 
+## Pre-Visit
 
-You should also review the suicide-related self-report questions before meeting the participant. If suicidal thoughts or behavior are endorsed, you must immediately inform Dr. Baller /and the clinician on-call.
+- [ ]  Set up consent on REDCap Axis
+- [ ]  Set up self-report questionnaires on REDCap Axis
+- [ ]  Register their ClinCard account
+- [ ]  Prep a note with the participants information (full name, DOB, age, BBLID, address, phone number, email, med list [found in PennChart] including names and dosages)
+- [ ]  Print out the MoCA (for both in-person and virtual)
 
-### The Participant Visit
-Visits typically last 2-3 hours. The visit can be completed in the assessment rooms on the 10th floor of the Gates building or on Zoom. If you are doing your visit in Gates (which is easier to schedule), ask the participant to meet you in the HUP lobby (3400 Spruce Street). Some participants may confuse the PCAM lobby with the HUP lobby, so be prepared to use the Pavillion bridge to greet participants in either lobby in case there is a mixup. Once you have greeted the participant and introduced yourself, you can lead them to the assessment room. The study visit components should be completed in the following order:
+### *Reminders*
 
-1. Consent
-2. Oracle Meds/Demos
-3. Self-report in REDCap
-4. MoCA
-5. CNB
-6. Adaptive GOASSESS 
-7. C2 form signing and payment
+Using the appropriate email and text scripts, reach out to your participant at the following times:
 
-Once the visit has been completed, thank the participant and walk them back to the HUP lobby. 
+- [ ]  1 week before (email)
+- [ ]  48 hours before (text)
+- [ ]  24 hours before (text and email [if virtual, include zoom link here])
 
-### After the Visit
-Once you have completed the visit, you should QA the interviews and make sure that the consent form and C2 are uploaded to Saturn. You should scan the MoCA form and add it into the participants folder. Any paper folders can be filed in your filing cabinet. 
+## Before the visit starts
 
-Some participants may ask for feedback on their CNBs. Feedback can be obtained by making a request on behalf of the participant through the [CNB Feedback Requests](https://webcnp.med.upenn.edu/request_feedback.pl). Because most participants will not understand what the reports mean, you should ask a clinician to set up a short appointment with the participant, during which the clinician will explain what the report states to the requesting participant. More instructions on how to obtain a feedback report can be found on the CNB page. 
+*If in-person:*
 
-### QA/QC Protol for After Participant Visits
+- [ ]  Bring physical ClinCard and ClinCard FAQ sheet
+- [ ]  Log into computer before participant arrives and open the following websites:
+    - [ ]  REDCap AXIS: self-report and consent form
+    - [ ]  CNB
+    - [ ]  CAT-GOASSESS
+- [ ]  Get water bottles and snacks from the kitchen
+- [ ]  Head to the lobby ~5-10 minutes before the visit starts and text your participant that you are waiting in the lobby (it is helpful to tell them what you are wearing so they can find you easily)
+
+*If virtual:*
+
+- [ ]  Pull up the following websites:
+    - [ ]  REDCap Axis: self-report and consent form
+    - [ ]  CNB
+    - [ ]  CAT-GOASSESS
+- [ ]  Pull up your personal consent script
+
+## During the Visit (both in-person and virtual)
+
+- [ ]  Consent on REDCap Axis
+- [ ]  Demographics and medication entry on Oracle
+- [ ]  Self-report questionnaires on REDCap Axis
+  - [ ] **You should also review the suicide-related self-report questions while the participant is answering the questionnaire. If suicidal thoughts or behavior are endorsed, you must immediately inform Dr. Baller to request a safety screen.**
+- [ ]  MoCA
+- [ ]  CNB
+    - [ ]  Record data quality in ProctTract
+- [ ]  CAT-GOASSESS
+- [ ]  C2 form
+- [ ]  Pay participant
+- [ ]  Offer feedback session
+
+## Post-Visit
+
+- [ ]  Save the following documents to the following locations:
+    - [ ]  Self-report questionnaires
+        - [ ]  Create new folder in Saturn for the participant in the folder “Participants” with their BBLID —> create a second folder inside called “feedback_materials”, and put this in there
+        - [ ]  Name format: [BBLID]_MSDepressionCollectionScalesCo_[YYYY]-[MM]-[DD]_[string of numbers generated for you, do not change].pdf
+    - [ ]  Signed consent form
+        - [ ]  Consent folder “Virtual_Consents”
+        - [ ]  Name format: [BBLID]_MSDepression853883Consent_[MM]_[DD]_[YYYY].pdf
+    - [ ]  Scan the MoCA
+        - [ ]  Save in the “feedback_materials” folder
+        - [ ]  Name format: [BBLID]_moca.pdf
+    - [ ]  CAT-GOASSESS
+        - [ ]  Add the raw data to the “GOA_data” folder
+        - [ ]  Keep the name as is
+    - [ ]  C2
+        - [ ]  Save in “Virtual_C2” —> choose the appropriate month/year folder —> create a new folder with the BBLID —> add C2 in that folder
+        - [ ]  Name format: [BBLID]_C2_[MM]_[DD]_[YY]
+- [ ]  Update DaySmart
+- [ ]  Update Call Log
+- [ ]  Request feedback
+- [ ]  (If requested) Mail physical ClinCard
+- [ ]  Update CRMS
+- [ ]  Update Oracle study enroll —> completed
+
+## QA/QC Protol for After Participant Visits
 
 After finishing a visit with a participant, you should check through the data to ensure that all the data was collected properly and accurately. 
 
-1)	Submit for CNB feedback
-
-To submit for a CNB feedback report, you should find the participants Datasetid before starting the request. This can be found by going to webCNP.med.upenn.edu/results.pl, entering the participants BBLID in the subID box and clicking “List Session(s)”. Their Datasetid (DSI) will generate. Then, go to webcnp.med.upenn.edu/request_feedback.pl and click “New Request”, found at the top right corner of the page. Enter the participant’s Datasetid and choose Ruben Gur as the publisher. Confirm the information and then submit the request. You will receive an email when the report has been published, and it can be downloaded from the same website that it was created on. 
-
-2)	Review CNB feedback report
-
-After the CNB report has been published, you should review the report to ensure that there are no spelling or spacing errors, and that the data results align to what you experienced during their visit. For example, if your participant took a long time on every task but the report says that speed was High Average, the data may have been collected or summarized incorrectly. If you notice a discrepancy, contact Dr. Baller, review your concerns, and she will approve you reaching out to Tarlan (cc her) to inquire about what you’ve noticed.  Once the report is finalized, save it on Saturn. 
-
-3)	Review the REDCap Self-Report Ratings
+1)	Review the REDCap Self-Report Ratings
 
 The REDCap ratings can be viewed at axis.med.upenn.edu/index.php?action=myprojects. Review the results of the self-report ratings and ensure that all questions have been answered. If a question was skipped, reach out to the participant, and clarify whether they skipped it on purpose or if it was an accident. If it was an accident, set up a brief call with them to fill in the missed questions. Once you have reviewed, save results to Saturn.
 
-4)	Review the GOA Ratings Data
+2)	Review the GOA Ratings Data
 
 The GOA ratings data can be viewed at https://phenome.med.upenn.edu. Under Admin Tools, find the Session Data section and click on “Participant lookup”. Here, enter the participants BBLID and review the GOA ratings data, paying close attention to the score under each category. Make sure each psychopathology domain has a number. 
 
-5)	Compare the GOA and REDCap Self-Report Data
+3)	Compare the GOA and REDCap Self-Report Data
 
 After reviewing the GOA and REDCap Self-Report Data, compare the results from both to see if any differences may be present. For example, if the participant is highly symptomatic for depression in their ratings (BDI greater than or equal to 19 and PHQ-9 greater than or equal to 10), ensure that their GOA rating falls at the range of 0.7-1 if not higher. If the scores do not align, inform Dr. Baller to trouble-shoot. 
 
-6)	Check the CNB Data
+4)	Check the CNB Data
 
 Go to https://webcnp.med.upenn.edu/manual.html and click on “View Data” and then “Reports & Norm Data”. Under “Battery”, select the most updated msdep_k23_v# battery, and under “Site” select MSDEP. Click “Generate data report” and a sheet should download. On this sheet, you should ensure that there aren’t any gaps in the data and that the data came out the way you were expecting. If there are any gaps or problems in the data, reach out to Dr. Baller to trouble-shoot. Be sure to include the participants BBLID and the specific issues in the data when informing Dr. Baller. 
 
-7)  Check the MoCA
+5)  Check the MoCA
 Score the MoCA and ensure that it is properly stored in Saturn in the participants folder. You can scan documents using the portable scanner in Richards. You will have to download the Epson ScanSmart App in order for this to work.
 
