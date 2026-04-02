@@ -8,23 +8,74 @@ nav_order: 5
 ---
 
 # Using Oracle
-Oracle is the BBL-wide database that is used to keep track of all participants that choose to be a part of BBL studies. You will need to use Oracle to creat a BBLID, which will beocme your participant's identifier, and to push self-report scales and interviews to REDCap. You will also be able to see if your participant has participated in any other BBL studies, but the MS participants are typically new to the BBL and will have to have their information entered manually to create the ID. 
+[Oracle](https://bbldm.pmacs.upenn.edu/bblmain/InitialDispatch) is the BBL-wide database that is used to keep track of all participants that choose to be a part of BBL studies. You will need to use Oracle to create a BBLID, which will become your participant’s identifier. You will also be able to see if your participant has participated in any other BBL studies, but the MS participants are typically new to the BBL and will have to have their information entered manually to create the ID. If there are ever any problems with Oracle, you can post in the Slack channel #oracle_isssues. 
 
 ## Making a BBLID in Oracle
-Once you are onboarded, you should be able to log in to the [Oracle database](https://bbldm.pmacs.upenn.edu/bblmain/alarm/req_alarm.jsp). Navigate to the `Main Menu` and click on the `QuickScreen` button on the left-side toolbar. Then, click on `QuickScreen Store` to create a screen ID for your participant (this is a necessary precursor to the BBLID). Enter all required information, and check to make sure that you're not creating a duplicate screen ID by clicking the `Check Dup Name` button next to the participant's name. You should be able to find all of a participant's required data in PennChart. You can leave their Preliminary Screen Status as `Unknown`, mark their source as `ext` (external) and enter 'Baller MS Study' into the notes senction, and finally you should click "No" next to `Quick_Exclude`. 
-
-Congratulations! You have now created a QuickScreen ID. 
-
-Return `Home` and then click on `GETBBLID` on the left-side toolbar. click on `Get BBLID`, and then enter the participant's screen ID (SID) and all required information. Register them as `P` for proband, and then the page should generate a BBLID. Record the BBLID in the participant recruitment spreadsheet in the Baller Lab Saturn folder. 
+Once you are onboarded, you should be able to log in to the [Oracle database](https://bbldm.pmacs.upenn.edu/bblmain/alarm/req_alarm.jsp). Navigate to the Main Menu and click on the `SUBJECT/FAMILY INFO`, and then `Search/Add New Proband`. Then, click `Enter New Proband`. Fill out the following information: Subject Status = Active, Firstname, Lastname, (check the box for no middle name), Date of Birth, Sex at Birth, Race, Ethnic, Source = Ext-Other, and write MS Patient in the Notes section. Once you are done adding this information, click `Enter`. Then, click `Add Contact/Family`, and hit `Yes` for “Do you need to add new contact for self/family”. Select “self_[FIRSTNAME]_[LASTNAME]”, and enter the Cphone and Email. Once you are done, click `Save`.
 
 ## Enroll Participant in MS/Depression Study
-Now that you have a BBLID for your participant, you can enroll them in the MS/Depression study. Navigate back to `Home` and click on `Study_Enroll` in the left-hand toolbar. Then click on `Study Enroll` to enroll your participant in the study. Enter the participant's BBLID and click `get the subject`. Once their information populates, click `Do New Enroll`. Enter all required information. Select `IRB#_msdep_k23` for protocol, and `MS_group` for study group. You can then hit `Save`. Your protocol participant should then appear as active in the protocol. Return `Home`.
-
-## Push Self Report Scales to REDCap
-You will be able to generate self reports in REDCap for the study through Oracle. Click on `REDCAP_SelfReport` in the left hand toolbar. Then, click `Subject SelfR Store`. Enter the BBLID you just created and select protocol `IRB#_msdep_k23`. This should populate seven self report scales underneath the banner `Show REDCap Scales for Proband`. Click `ENTER` to generate the REDCap ID you will use to search for the participant's self report scales in the `Participant Self Report Scales` REDCap project. Make a note of this ID. Return `Home`.
-
-## Push GOASSESS Interview to REDCap
-You will be able to generate a record for your participant's GOASSESS clinical interview in Oracle. Click on `REDCap Interview` in the left hand toolbar. Click on `SubScale IntV Store`. Enter your subject's BBLID and the protocol `IRB#_msdep_k23`. Select the correct GOASSESS interview under `Battery Assessment` (interview updates currently in progress, as of 12/7/23) and double check the list of scales populated below. Fill in all required fields and select "Intake Proband" under `Interview Type`. Click `ENTER` to generate the REDCap ID you will use to search for the participant's interview in REDCap under the `GOASSESS Clinical Interview` REDCap project. Make a note of this ID and return `Home`.
+Now that you have a BBLID for your participant, you can enroll them in the MS Depression study. Navigate back to Home and click on `Study Enroll` in the left-hand toolbar. Enter the participant’s BBLID and click `get the subject`. Once their information populates, click `Do New Enroll`. Enter all required information. Select *853883_msdep_k23* for protocol, and *MS_group* for study group. Study_Status should be *not enrolled*. You can then hit `Save`. Your protocol participant should then appear as active in the protocol. After completing a study, return to this page and change the Study_Status to *completed*. 
 
 ## Logging Participant Contact in Oracle
-You should also log how and when you contacted your participant in Oracle using the `Contact Entry` button in the left hand toolbar. Click `BBLID Search` to find your participant, and click `Contact Entry` to see a history of when and how the participant was contacted. Add new contact info at the bottom of the page if necessary. Click the envelope/phone icon on the far left to add a new contact entry for an existing mode of contact. Fill out necessary information to reflect the interaction you had with your participant. Make sure to also log contact and study information in the Saturn participant recruitment spreadsheet.
+You should also log how and when you contacted your participant in Oracle using the `Contact Entry` button in the left hand toolbar. Click `BBLID Search` to find your participant, and click `Contact Entry` to see a history of when and how the participant was contacted. Add new contact info at the bottom of the page if necessary. Click the envelope/phone icon on the far left to add a new contact entry for an existing mode of contact. Fill out necessary information to reflect the interaction you had with your participant. Make sure to also log contact and study information in the Saturn participant recruitment spreadsheet.
+
+## Visit Info
+During the visit, you will have to record the participants’ demographics. Starting at the Main Menu, navigate to `VISIT INFO` and then `Demos Store`. Enter the `BBLID`, click `Get the Subject`, and then click the red `Store` button. Select our protocol, and enter the following information:
+
+- [ ]  Height(”)
+- [ ]  Weight(lbs)
+- [ ]  Measure_Way = Self-report
+- [ ]  Gender_Identity
+- [ ]  Sex Preference
+- [ ]  Completed Education (in years)
+    - [ ]  The question mark box next to this will outline the degree level with the associated number of years of education.
+- [ ]  Are you a student?
+- [ ]  Are you currently employed?
+- [ ]  What is your occupation/line of work?
+    - [ ]  The question mark box will show the list of occupation categories. Choose the number that best corresponds with their job.
+- [ ]  Name of Occupations
+- [ ]  Marital Status
+- [ ]  #Kids_Subject
+- [ ]  Raised By
+- [ ]  Ses_Income_Src
+    - [ ]  Use the ses PDF and share your screen when asking this question
+- [ ]  Ses_Income_Household
+    - [ ]  Use the ses PDF and share your screen when asking this question
+- [ ]  Living Arrangement
+- [ ]  Ses_Property
+- [ ]  Ses_Property_Value
+    - [ ]  Use the ses PDF and share your screen when asking this question
+- [ ]  Ses_Residents
+- [ ]  Ses_Bedrooms
+- [ ]  Ses_Immigrant_Status
+- [ ]  Ses_Citizenship
+- [ ]  #Bio_Brothers
+- [ ]  #Bio_Sisters
+- [ ]  Birth_Order_Sub
+- [ ]  #Half_Brother
+- [ ]  #Half_Sister
+- [ ]  Completed Education (in years)(Mother)
+    - [ ]  The question mark box next to this will outline the degree level with the associated number of years of education.
+- [ ]  Mother Occupation
+    - [ ]  The question mark box will show the list of occupation categories. Choose the number that best corresponds with their job.
+- [ ]  Name of Occupations
+- [ ]  #Kids_Mother
+- [ ]  Completed Education (in years)(Father)
+    - [ ]  The question mark box next to this will outline the degree level with the associated number of years of education.
+- [ ]  Father Occupation
+    - [ ]  The question mark box will show the list of occupation categories. Choose the number that best corresponds with their job.
+- [ ]  Name of Occupations
+- [ ]  #Kids_Father
+- [ ]  Were you ever adopted or in foster care?
+- [ ]  Do you know bio parents?
+- [ ]  Is English your primary/native language?
+- [ ]  (Optional) Notes:
+    - [ ]  If there is any additional information or something you need to clarify, you can write that here.
+
+## Medication
+You will also have to enter the medications that the participant is on. Starting at the Main Menu, navigate to `MEDICATION`, the `Medicine Store`, enter `BBLID`, and then click `Get the Subject`. Choose `Do Medicine Entry`. Choose our `protocol`, your username for `CollectBy`, and then choose `Yes` for the questions “Are you taking any medicines regularly within the past 6 months, including aspirin and (females only) oral contraceptives?” and (if this shows up) “Do you have new medicines to enter for this collection?”. For each medication that they are on, enter the medicine name in *Medicine*, the total daily dosage in mgs in *Dosage(mg_day)*, *route*, when they started taking this medication in *Date/Med_Start*, and choose “yes” for *Is_Current*. Once you are done, click `Enter` to save. A few extra pieces of information:
+
+- *Pharmclass* will generate automatically if you select one of the medicine options when typing it into the first column. It is okay if you cannot select a Medicine from the generated list, and it is okay if the Pharmclass is left blank.
+- If the participant takes a certain medication more than once a day, enter the total daily dosage in *Dosage(mg_day)*, and then note the breakdown of usage in *Comments*.
+- For *Route*, 1-PO is for pills and 2-DEC is for injections and infusions.
+- We record supplements and vitamins.
