@@ -8,22 +8,22 @@ nav_order: 14
 ---
 # Navigating Scans from Radiology and RADAR
 This study uses clinical scans that need to be acquired from RADAR or another radiology group. Please follow these steps to understand how to:
-1) Find scan accession numbers and where to record them
-2) Request scans from RADAR
-3) Sort through the scans
-4) Process the scans
+1. Find scan accession numbers and where to record them
+2. Request scans from RADAR
+3. Sort through the scans
+4. Process the scans
 
 # Finding Accession Numbers
 Accession numbers are the unique identifer that is used for each unique scan or group of scans. To run the analysis pipelines, each participant needs to have a (preferably sagittal) FLAIR and T1 scan. Use the following steps to find and record accession numbers, that will later be used to request the scans be delivered from RADAR.
 
-1) Open PennChart/Epic and search for the patient in `Chart Review` using their MRN.
-2) Navigate to the `Imaging` tab and click on the **MR HEAD MS [W AND WO IV Contrast, Post Processing, etc.]** scan that is closest to when their visit was.
-3) First, record the accession number associated with this scan in the Call Log, in the `MR MS HEAD Accession Number` column.
-4) Then, click the hyperink `Show images for [scan name]`, which will open Sectra UniView.
-5) Look for the following scans: **"SAG T1 MPRAGE BRAIN"** and **"SAG T2 FLAIR BRAIN"** (or something very similar). They should have 160 or 176 slices.
-6) If you find either or both of those scans within the first folder of scans, record the accession numbers in their respective columns in the Call Log: `FLAIR Acc Num` and `T1 Acc Num`.
-7) If you didn't find either or both of the scans, find the **MR SOURCE IMAGES** folder from the same date, and look for the missing scans there.
-8) Record all accession numbers in the Call Log, and if you cannot find one or both scans, record that in the Call Log (but this should be screened before scheduling a participant).
+1. Open PennChart/Epic and search for the patient in `Chart Review` using their MRN.
+2. Navigate to the `Imaging` tab and click on the **MR HEAD MS [W AND WO IV Contrast, Post Processing, etc.]** scan that is closest to when their visit was.
+3. First, record the accession number associated with this scan in the Call Log, in the `MR MS HEAD Accession Number` column.
+4. Then, click the hyperink `Show images for [scan name]`, which will open Sectra UniView.
+5. Look for the following scans: **"SAG T1 MPRAGE BRAIN"** and **"SAG T2 FLAIR BRAIN"** (or something very similar). They should have 160 or 176 slices.
+6. If you find either or both of those scans within the first folder of scans, record the accession numbers in their respective columns in the Call Log: `FLAIR Acc Num` and `T1 Acc Num`.
+7. If you didn't find either or both of the scans, find the **MR SOURCE IMAGES** folder from the same date, and look for the missing scans there.
+8. Record all accession numbers in the Call Log, and if you cannot find one or both scans, record that in the Call Log (but this should be screened before scheduling a participant).
 
 # Requesting Scans from RADAR
 To receive the desired scans, you will have to submit a request through [RADAR](https://www.med.upenn.edu/radar/how-to-request-data). 
